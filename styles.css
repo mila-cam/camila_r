@@ -1,0 +1,79 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    margin: 0px;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+.contenedor {
+    background-color: azure;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 001);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+label {
+    display: block;
+    margin: 10px 0px 5px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: rgb(126, 178, 212);
+    color: rgb(0, 0, 0);
+    border: solid #221a1a;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.inicio-cuadritos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.cuadrito {
+    flex: 1 1 150px;
+    max-width: 180px;
+    background-color: #2980B9;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    na
+}
+
+.cuadrito:hover,
+.cuadrito:focus {
+    background-color: #1B4F72;
+    transform: scale(1.05);
+    outline: none;
+}
